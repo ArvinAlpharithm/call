@@ -21,7 +21,6 @@ def initiate_call(phone_number, pathway_id, authorization):
     return response.text
 
 # Streamlit App
-st.title("Phone Call Initiator")
 st.write("Enter your phone number along with the country code to initiate a call.")
 
 # Input Fields
